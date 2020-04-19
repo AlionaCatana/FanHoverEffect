@@ -1,0 +1,225 @@
+body{
+    background-color: #333;
+}
+#fan{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: 3s;
+}
+#fan div{
+    background-color: #fff;
+    width: 30em;
+    height: 4em;
+    position: absolute;
+    top: -2em;
+    transform-origin: 1.5em center;
+    border: 1px solid red;
+    text-align: right;
+    padding: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+    border-radius: 150% 5em 5em 150%;
+}
+#fan div:nth-child(1){
+    transform: rotate(-10deg);
+    background-color: #243330;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #111111;
+    transition: 3s;
+}
+#fan div:nth-child(2){
+    transform: rotate(-10deg);
+    background-color: #354e48;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #111111;
+    transition: 1s;
+}
+#fan div:nth-child(3){
+    transform: rotate(-10deg);
+    background-color: #3a655b;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #222;
+    transition: 1s;
+}
+#fan div:nth-child(4){
+    transform: rotate(-10deg);
+    background-color: #359883;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #222;
+    transition: 1s;
+}
+#fan div:nth-child(5){
+    transform: rotate(-10deg);
+    background-color: #33ae92;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    transition: 1s;
+}
+#fan div:nth-child(6){
+    transform: rotate(-10deg);
+    background-color: #2ad2ae;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    transition: 1s;
+}
+#fan div:nth-child(7){
+    transform: rotate(-10deg);
+    background-color: #1be4b8;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    transition: 1s;
+}
+#fan div:nth-child(8){
+    transform: rotate(-10deg);
+    background-color: #41fad1;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    transition: 1s;
+}
+#fan div:nth-child(9){
+    transform: rotate(-10deg);
+    background-color: #60f7d6;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    transition: 1s;
+}
+#fan div:nth-child(10){
+    transform: rotate(-10deg);
+    background-color: #99f8e4;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #444;
+    transition: 1s;
+}
+#fan div:nth-child(11){
+    transform: rotate(-10deg);
+    background-color: #c0faee;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #555;
+    transition: 1s;
+}
+#fan div:nth-child(12){
+    transform: rotate(-10deg);
+    background-color: #e3fcf8;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #555;
+    transition: 1s;
+}
+
+/* Ховер */
+
+#fan:hover div:nth-child(1){
+    transform: rotate(-10deg);
+    background-color: #243330;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #111111;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(2){
+    transform: rotate(-20deg);
+    background-color: #354e48;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #111111;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(3){
+    transform: rotate(-30deg);
+    background-color: #3a655b;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #222;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(4){
+    transform: rotate(-40deg);
+    background-color: #359883;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #222;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(5){
+    transform: rotate(-50deg);
+    background-color: #33ae92;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(6){
+    transform: rotate(-60deg);
+    background-color: #2ad2ae;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(7){
+    transform: rotate(-70deg);
+    background-color: #1be4b8;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(8){
+    transform: rotate(-80deg);
+    background-color: #41fad1;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(9){
+    transform: rotate(-90deg);
+    background-color: #60f7d6;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #333;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(10){
+    transform: rotate(-100deg);
+    background-color: #99f8e4;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #444;
+}
+#fan:hover div:nth-child(11){
+    transform: rotate(-110deg);
+    background-color: #c0faee;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #555;
+    opacity: 0.7;
+}
+#fan:hover div:nth-child(12){
+    transform: rotate(-120deg);
+    background-color: #e3fcf8;
+    border: 2px solid #474948;
+    box-shadow: inset 0 0 50px 5px #555;
+    opacity: 0.9;
+}
+
+
+/* Втулка */
+
+#fan div:nth-child(12)::before{
+    content: "";
+    display: block;
+    width: 1em;
+    height: 1EM;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5em;
+    background-color: #333;
+    box-shadow: inset 0 0 7px 3px #111;
+}
+
+#fan div h2, 
+#fan div p{
+    margin: 0;
+}
+#fan div h2{
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+    color:#000000;
+
+}
